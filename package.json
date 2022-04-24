@@ -1,0 +1,19 @@
+{
+  "name": "typescripted_tfjs",
+  "version": "1.0.0",
+  "description": "A demo frontend app made by Typescripted React and Tensorflow.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssghost/Typescripted_TFJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssghost/Typescripted_TFJS/issues"
+  },
+  "homepage": "https://github.com/ssghost/Typescripted_TFJS#readme"
+}
