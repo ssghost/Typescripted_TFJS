@@ -62,7 +62,7 @@ const App: React.FC = () => {
 
     if (source.droppableId === "BoxList") {
       add = active[source.index];
-      active.splice(source.index, 1);
+      active.splice(source.index, 1, add);
     }     
   };
 
