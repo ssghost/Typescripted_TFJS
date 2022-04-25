@@ -13,7 +13,7 @@ const App: React.FC = () => {
   const [qa, setQa] = useState<QA>({id:0, que:"", ans:""});
   const [qas, setQas] = useState<Array<QA>>([]);
   const now = Date.now()
-  const tf_model_path = "./model_"+format(now, 'YYYY-MM-DD HH:mm:ss')+"_converted"
+  const tf_model_path = "../../model_"+format(now, 'YYYY-MM-DD HH:mm:ss')+"_converted"
 
   const handleAdd = (e: React.FormEvent) => {
     e.preventDefault();
