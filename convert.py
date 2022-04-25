@@ -1,3 +1,3 @@
 import tensorflowjs as tfjs
-from dcgan import DCGAN
+from transformer import Transformer
 
