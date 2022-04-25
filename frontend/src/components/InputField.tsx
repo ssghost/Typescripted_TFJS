@@ -2,8 +2,8 @@ import React, { PropsWithChildren, useRef } from "react";
 import "./styles.css";
 
 interface props {
-  todo: string;
-  setTodo: React.Dispatch<React.SetStateAction<string>>;
+  que: string;
+  setQue: React.Dispatch<React.SetStateAction<string>>;
   handleAdd: (e: React.FormEvent) => void;
 }
 
