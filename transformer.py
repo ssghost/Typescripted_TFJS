@@ -311,6 +311,7 @@ class Transformer:
 
         self.model.compile(optimizer=optimizer, loss=self.loss_function, metrics=[self.accuracy])
         self.model.fit(self.dataset, epochs=20)
+        return self.model
 
     def predict(self, sentence):
         import string
